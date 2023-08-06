@@ -93,7 +93,7 @@ WHERE MANAGER_ID IS NULL;
 논리 연산자를 사용하여 조건 정의
 AND: 구성 요소 조건이 모두 참인 경우 TRUE 반환
 OR: 구성 용소 조건 중 하나가 참인 경우 TRUE반환
-NOT: 조거이 거짓인 경우 TRUE를 반환
+NOT: 조건이 거짓인 경우 TRUE를 반환
 */
 SELECT employee_id , last_name,JOB_ID, salary
 FROM EMPLOYEES
